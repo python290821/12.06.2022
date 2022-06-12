@@ -1,0 +1,16 @@
+{
+  "name": "nodejs_rabbit",
+  "version": "1.0.0",
+  "description": "node with rabbit",
+  "main": "index.js",
+  "scripts": {
+    "producer": "node publisher.js",
+    "consumer": "node consumer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "itay",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.0"
+  }
+}
